@@ -374,9 +374,15 @@ nav li {
 }
 
 #card2 {
+    flex: none;
+    /* or */
     display: block;
-
 }
+#down{
+    float: right;
+    margin-top: 85vh;
+}
+
 
 .summary {
     text-align: center;

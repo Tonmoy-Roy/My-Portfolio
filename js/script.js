@@ -3,7 +3,7 @@ function downloadCV() {
   const link = document.createElement("a");
 
   // Set the href attribute to the URL of the CV file
-  link.href = "./Updating_Resume.pdf.pdf";
+  link.href = "./Updating_Resume.pdf";
 
   // Specify that the link should be downloaded when clicked
   link.setAttribute("download", "Updating_Resume.pdf");
